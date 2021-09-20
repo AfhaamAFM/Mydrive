@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.sticky{
+    position: fixed;
+    align-self: auto;
+    background-color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4.375rem;
+    padding: 1rem;
+    margin: 10px;
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    z-index: 2;
+   background-color: white;
+    position: fixed;
+    margin-top: -1px;
+
+}
+.header_centre{
+    display: flex;
+    justify-content: center;
+    background-color: #ddd;  
+    border-radius: 30%;
+    height:50px;
+    margin-right: 10px;
+    
+    
+    
+}
+.header_centre button{
+    border: none;
+    padding: 5px;
+    transition: none;
+
+}
+.header_centre li:hover{
+    background-color: #ddd;
+   
+    border-radius: 5rem;
+
+}
+.header_centre input{
+    width: 500px;
+    height:100%;
+    border:none;
+
+    background-color: #ebebeb;
+     outline: none;
+
+    
+}
+.header_left img{
+    height: 30px;
+margin-right: 280px;
+}
+.material-icons{
+    color: rgb(96, 96, 96);
+    cursor: pointer;
+    padding: 0px 7px;
+}
+.header_right{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5px;
+}
+.header_right1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+}
+.header_right2{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.rightico{
+    padding: 10px;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: row;
+   height: 100%;
+   margin-top: 82px;
+    float: left;
+  position: fixed;
+    overflow-y: scroll;
+    z-index: -1;
+    
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.option{
+    display: flex;
+    padding: 7px;
+    margin-left: 0;
+    align-items: center;
+    padding: 10px 6px 10px 0px;
+    
+}
+.options h2{
+    font-weight: 500;
+    font-size: 10px;
+    color: #686868;
+}
+.option:hover{
+    background-color: rgba(221, 221, 221, 0.89);
+     border-radius: 30px;
+     transition: color 100ms ease-out;
+}
+.options hr{
+    margin: 10px;
+    width: 100%;
+}
+  
+    .cloud{ 
+        display: flex;
+    }
+    .button{
+        display: flex;
+        padding: .75rem 1.25rem;
+        border:1px solid #ddd;
+        border-radius: 10rem;
+        color: rgb(71, 71, 71);
+        width:120px;
+        align-items:center;
+        justify-content:center;
+        font-size: 1rem;
+        letter-spacing: .06rem;
+        transition: all .3s;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        text-decoration:none;
+        font-weight:300;
+        font-family: calibri;
+        background-color:white;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        
+      }
+      .button:hover{
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        background-color: rgb(247, 247, 247);
+
+      }
+      .fa-plus{
+          color: rgb(54, 163, 252);
+          font-size: 1.4rem;
+          margin-right: 15px;
+      }
+      .storage hr{
+          background-color: #d1d1d1;
+          height: 3px;
+          border-radius: 5rem;
+          padding-bottom: 2px;
+
+      }
+      .storage{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          margin-left: 2rem;
+          font-size: 11px;
+          color: #494949;
+      }
+      .bt2{
+          margin-left: 50px;
+          margin-top: 10px;
+          padding: .70rem 1.14rem;
+          background-color: white;
+          border: 1px solid #ddd;
+          color: rgb(113, 113, 255);
+          font-weight: 550;
+          border-radius: 5px;
+
+      }
+      .bt2:hover{
+          background-color: rgb(213, 232, 248);
+      }
+.main{
+    position: absolute;
+    top:100px;
+    background-color: white;
+    left:200px;
+    display: flex;
+    z-index: -1;
+    
+}
+.con1{
+    display: flex;
+    font-size: 9px;
+    font-weight: 300;
+    padding: 4px;
+    font-style: normal;
+    position: fixed;
+    font-family: Google Sans, Roboto,RobotoDraft,Helvetica,Arial,sans-serif;;
+    color: #727272;
+    margin-bottom: 0px;
+}
+
+.con1:hover{
+    background-color: #f5f5f5;
+   
+    border-radius: 4rem;
+    transition: color 100ms ease-out;
+}
+.icon2{
+    padding: 0;
+}
+.icon1{
+    padding-left: 30px;
+    
+}
+
+.mainHeader{
+    display: flex;
+    width: 100%;
+    height: 51px;
+    margin-top: -31px;
+    background-color: white;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #727272;
+    align-items: center;
+    background-color: white;
+    position: fixed;  
+    z-index: 0; 
+    
+  
+}
+.mainRight{
+   margin-left: 900px;    
+}
+.mainRight span:hover{
+   border-radius: 40%;
+   background-color: #f5f5f5;
+}
+.contents{
+    position: absolute;
+    top:26%;
+    left: 16%;
+  z-index: -2;
+    overflow-y: scroll;
+    
+}
+.contents h3{
+    font-weight: 440;
+    font-size: medium;
+    color: #817f7f;
+}
+.image img{
+    height: 200px;
+
+    
+}
+.image{
+    height:118px;
+    width: 281px;
+    overflow: hidden;
+    align-items: center;
+    border-radius: 1rem;
+display: flex;
+justify-content: center;
+background-color: #ebebeb;
+    
+}
+.feed{
+    border:1px solid #d1d1d1;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:20px;
+    z-index: 0;
+    
+
+}
+.title{
+    padding: 13px 16px;
+    width: 251px;
+    height: 44px;
+    align-items: center;
+    display: flex;
+}
+.title img{
+    height: 30px;
+    margin: 5px;
+}
+.feeds{
+margin-top: 1.7rem;
+position: relative;
+display: flex;
+z-index: -2;
+}
+.feeds h2{
+    font-weight: 500;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px
+}
+.feed span{
+    font-size: 12px;
+    margin-left: 60px;
+    color: #817f7f;
+  
+}
